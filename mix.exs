@@ -21,8 +21,7 @@ defmodule HelloPhoenix.Mixfile do
      applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy,
                     :plug_logger_json, :logger,
                     :gettext,
-                    # TODO Step 1
-                    # :absinthe_plug,
+                    :absinthe_plug,
                     :phoenix_ecto, :postgrex]]
   end
 
@@ -41,8 +40,7 @@ defmodule HelloPhoenix.Mixfile do
      {:phoenix_html, "~> 2.6"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
-     # TODO Step 1
-     # {:absinthe_plug, "~> 1.1.0"},
+     {:absinthe_plug, "~> 1.1.0"},
      {:cowboy, "~> 1.0"},
      {:plug_logger_json, "~> 0.1.1"},
      {:credo, "~> 0.4", only: [:dev, :test]}]
